@@ -1,0 +1,105 @@
+body {
+  font-family: 'Work Sans', sans-serif;
+  background: linear-gradient(#F5F5F5, white);
+  padding-bottom: 20px;
+}
+
+h3 {
+  font-size: 1.7em;
+}
+
+th {
+  text-align: center
+}
+
+table {
+  width: 100%;
+  font-size: 1.2em;
+  background-color: #fff;
+  text-align: center;
+  color: #25CED1;
+  padding-top: 1px;
+  margin-top: 20px;
+}
+
+header {
+  width: 100%;
+  background-color: #fff;
+  text-align: center;
+  color: #25CED1;
+  padding: 20px;
+  margin: 20px 0px;
+  border-bottom: 1px solid #DCDCDC;
+  font-size: 2.5em;
+  font-weight:bold;
+  border-style: solid;
+  border-bottom: solid;
+}
+
+.search {
+  width: 100%;
+  background-color: #fff;
+  text-align: center;
+  color: #25CED1;
+  padding: 15px 0px;
+  border-style: solid;
+}
+
+#compare {
+  margin-bottom: 20px;
+}
+
+#search-text {
+  font-size: 1.2em;
+}
+
+.curr, #compare {
+  width: 100%;
+  font-size: 1.2em;
+  background-color: #fff;
+  text-align: center;
+  color: #25CED1;
+  padding-top: 1px;
+  margin-top: 20px;
+  padding: 5px 0px;
+  border-style: solid;
+
+}
+
+.form-control {
+  width: 8%;
+  height: 90%;
+  display: inline-block;
+  color: #25CED1;
+  border: 2px solid #25CED1;
+}
+
+input[type=select] {
+  height: 40px;
+}
+
+input[type=submit] {
+  background-color: white;
+  height: 40px;
+  border: 2px solid #25CED1;
+  margin-bottom: 20px;
+}
+
+input[type=submit]:hover {
+  background-color: #25CED1;
+  color: white;
+}
+
+input[type=text] {
+  height: 40px;
+  border: 2px solid #25CED1;
+  margin-bottom: 8px;
+  padding: 0 10px;
+}
+
+#answer {
+  font-size: 30px;
+  font-weight: bold;
+  display: block;
+  margin: 10px 0 15px;
+}
